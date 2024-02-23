@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'URW Gothic';
+    background: #000000;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*-------------------COMMON STYLES-------------------------------*/
+
+.sectionHeadingRow{
+    padding-top: 8%;
+    background: linear-gradient( #0a0010, #000000);
+    color: white;
+}
+.sectionHeading{
+    text-align: center;
+    text-shadow: -0.13rem 0 cyan, 0.13rem 0 red;
+}
+.sectionBackground{
+    background: black;
+    align-items: center;
+}
+.lead1{
+    padding: 2%;
+    text-align: justify;
+    text-indent: 10%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/*--------------------HEADER SECTION-----------------------------------*/
+
+.headerContainer{
+    position: relative;
+    text-align: center;
+    background: rgb(0, 0, 0)
+}
+.headerTitleLeft{
+    position: absolute;
+    width: 80%;
+    bottom: 15%;
+    left: 10%;
+}
+#headerName{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+#headerWelcomeTag{
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.5em;   
+}
+.headerTitleRight{
+    position: absolute;
+    width: 50%;
+    bottom: 15%;
+    left: 7%;
+}
+.headerTag{
+    color: #ffffffe3;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-align: left;
+}
+
+
+
+
+/*------------------------NAVBAR SECTION--------------------------*/
+
+.navbar{
+    background: rgb(0, 0, 0);
+    padding-top: 2%;
+    padding-bottom: 1%;
+    z-index: 2;
+}
+.nav-item{
+    padding-top: 5px;
+    font-size: large;
+    margin-left: 0.3rem;
+}
+
+#navbarLogo{
+    height: 2.5rem;
+    width: 2.5rem;
+    vertical-align: auto;
+}
+.navbarName{
+    margin-left: 1rem;
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight: 500;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+
+
+/*----------------------ABOUT SECTION-----------------------------*/
+
+.buttonDiv{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+
+/*----------------------SCIENCE SECTION--------------------------*/
+
+.contentBox{
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    background: linear-gradient(  #000000, #0a0010);
+    align-items: center;
+    margin-bottom: 2%;
+    padding: 2rem;
+}
+.contentBox:hover{
+    background: linear-gradient( #0a0010, #000000);
+}
+.contentIcon{
+    text-align: center;
+}
+.contentHeading{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.boxHeading{
+    padding-top: 1rem;
+}
+.contentText{
+    text-align: justify;
+    color: rgb(230, 230, 230);
+    text-indent: 10%;
+    letter-spacing: 0.01rem;
+
+}
+
+
+
+/*---------------CARDS---(USED IN SCIENCE SECTION)-----------------------*/
+
+.card{
+    margin: 2%;
+    background: #090909;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition-duration: 0.3s;
+}
+.cardSci{
+    height: 33rem;
+}
+.card:hover{
+    box-shadow: -0.5rem -0.5rem 1rem  #005555bb, 0.5rem 0.5rem 1rem #550000bb;
+    background: linear-gradient( #090909, #000000);   
+}
+.card-img-top{
+    width: 50%;
+    margin: 5%;
+}
+
+
+
+/*--------------------CARDS---TECH SECTION----------------------------*/
+
+.cardTech{
+    margin: 2%;
+    align-items: center;
+}
+.cardTech:hover{
+    box-shadow: -0.4rem -0.4rem 0.8rem  #005555bb, 0.4rem 0.4rem 0.8rem #550000bb;   
+}
+
+.contentTextTech{
+    color: rgb(184, 184, 184);
+    text-align: center; 
+}
+
+
+
+/*----------------------CONTACT SECTION------------------------------*/
+
+
+.formLabel{
+    color: rgb(184, 184, 184);
+}
+.leadContact{
+    padding: 2%;
+    text-align: center;
+    color: rgb(209, 209, 209);
+    font-size: larger;
+}
+.form-control:hover{
+    background: rgb(247, 231, 255)
+}
+.sendButton{
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    border-width: 30%;
+    border-color: #3b005a;
+    background: linear-gradient(#180025, #000000);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    outline: none !important;
+}
+.sendButton:hover{
+    background: #2a0042;
+    cursor: pointer;
+}
+
+
+
+/*------------------FORM SUBMISSION TARGET PAGE (thankYou)---------------------*/
+
+.thankYou{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.thankYouMessege{
+    text-align: center;
+    background-color: #090909;
+    padding: 10%;
+    border-radius: 1rem;
+    box-shadow: -0.4rem -0.4rem 0.8rem  #005555bb, 0.4rem 0.4rem 0.8rem #550000bb;
+    background: linear-gradient( #090909, #000000);
+}
+
+ 
+
+/*---------------------------FOOTER-----------------------------------*/
+
+.icons{
+    text-align: center;
+    color: white;
+}
+.icons:hover{
+    cursor: pointer;
+    color: rgb(240, 209, 255)
+}
